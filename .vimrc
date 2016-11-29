@@ -95,3 +95,17 @@ if has("gui_running")
 endif
 
 set autoindent
+
+" easy acces to start and end of line
+" noremap - $
+" noremap _ ^
+"
+" " map uppercase to lowercase - good for keyboard slowness
+" :command WQ wq
+" :command Wq wq
+" :command W w
+" :command Q q
+"
+" set backspace=indent,eol,start
+"
+" let mapleader = "\<Space>"
